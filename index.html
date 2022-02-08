@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            boxShadow: {
+              '3xl': 'inset 0 1000px 0 rgba(0, 0, 0, .57)',
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Password Strength Concept</title>
+  </head>
+  <body>
+    <div class="background" id="background"></div>
+    <div class="rounded p-10 text-center shadow-3xl object-none object-center">
+      <h1
+        class="p-5 border border-white text-xl text-white font-bold uppercase"
+      >
+        <img class="logo" src="Logo.png" alt="Logo" />
+        Is your password strong enough?
+      </h1>
+      <div class="my-4 text-left"></div>
+
+      <div class="my-4 mt-8 text-left">
+        <label for="email" class="text-white font-semibold uppercase"
+          >Type to see:</label
+        >
+        <input
+          type="password"
+          class="border block w-full p-2 mt-2 rounded"
+          id="password"
+          placeholder="Enter Password"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
