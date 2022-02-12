@@ -12,7 +12,7 @@ Enter your password and, if you can read the titles of newspapers, it means that
 
 https://moeisawesome.github.io/ps/
 
-**What tools are used in this project?**
+**What tools were used in this project?**
 * HTML
 * CSS
 * JavaScript
